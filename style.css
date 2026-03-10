@@ -1,0 +1,58 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    background-color: #eef2f3; /* Cinza azulado bem claro */
+    color: #2c3e50;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #27ae60; /* Linha verde separando */
+}
+
+header h1 { margin: 0; font-size: 2.2rem; }
+
+/* Conteúdo Principal */
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #27ae60; /* Verde para destacar os tópicos */
+    border-left: 5px solid #1e5799;
+    padding-left: 10px;
+}
+
+/* Lista */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    padding: 20px;
+}
+
+/* Ajuste para Celular (Responsividade) */
+@media (max-width: 600px) {
+    main { margin: 10px; padding: 15px; }
+    header h1 { font-size: 1.6rem; }
+}
